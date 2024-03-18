@@ -5,10 +5,10 @@ public class Main {
         Main main = new Main();
         String str = "111";
         main.parseAndPrintNumber(str);
+
     }
     public void parseAndPrintNumber(String str) {
-        int x = Integer.parseInt(str) / 2 ;
-        System.out.println(x);
+        System.out.println(Integer.parseInt(str) / 2) ;
     }
 
 }
